@@ -1,5 +1,5 @@
 import JSON
-import HTTP
+import HTTPVapor
 
 extension JSON: ResponseRepresentable {
     public func makeResponse() throws -> Response {

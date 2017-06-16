@@ -1,10 +1,10 @@
-import HTTP
+import HTTPVapor
 import Transport
 
 /// HTTP/HTTPS client from Foundation.
 public final class FoundationClient: ClientProtocol {
     /// The connected HTTP client
-    let client: HTTP.FoundationClient
+    let client: HTTPVapor.FoundationClient
     
     /// Settings
     let hostname: String
@@ -25,13 +25,13 @@ public final class FoundationClient: ClientProtocol {
         self.proxy = proxy
         
         if let proxy = proxy {
-            client = HTTP.FoundationClient(
+            client = HTTPVapor.FoundationClient(
                 scheme: proxy.securityLayer.scheme,
                 hostname: proxy.hostname,
                 port: proxy.port
             )
         } else {
-            client = HTTP.FoundationClient(
+            client = HTTPVapor.FoundationClient(
                 scheme: securityLayer.scheme,
                 hostname: hostname,
                 port: port

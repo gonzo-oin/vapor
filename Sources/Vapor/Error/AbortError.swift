@@ -1,5 +1,5 @@
 import Debugging
-import HTTP
+import HTTPVapor
 
 /// Represents errors that can be thrown in any Vapor closure.
 /// Then, these errors can be caught in `Middleware` to give a
@@ -28,7 +28,7 @@ extension AbortError {
 
 // MARK: Conformances
 
-extension HTTP.Status: AbortError {
+extension HTTPVapor.Status: AbortError {
     public var status: Status {
         return self
     }

@@ -1,11 +1,11 @@
-import HTTP
+import HTTPVapor
 import URI
 import Transport
 
 extension Request {
     public static func makeTest(
         // request
-        method: HTTP.Method,
+        method: HTTPVapor.Method,
         version: Version = Version(major: 1, minor: 1),
         headers: [HeaderKey: String] = [:],
         body: Body = .data([]),

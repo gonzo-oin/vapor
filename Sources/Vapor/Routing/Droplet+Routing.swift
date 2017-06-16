@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 @_exported import Routing
 

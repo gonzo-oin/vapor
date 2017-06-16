@@ -1,7 +1,7 @@
 import XCTest
 import Vapor
 import Sessions
-import HTTP
+import HTTPVapor
 
 class ConfigTests: XCTestCase {
     override func setUp() {

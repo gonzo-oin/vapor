@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 import Transport
 import Sockets
 import TLS

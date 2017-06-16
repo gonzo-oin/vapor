@@ -1,5 +1,5 @@
 import Routing
-import HTTP
+import HTTPVapor
 
 public final class Resource<Model: Parameterizable> {
     public typealias Multiple = (Request) throws -> ResponseRepresentable
@@ -73,7 +73,7 @@ extension RouteBuilder {
 
             itemMethods.append(method)
 
-            let closure: (HTTP.Request) throws -> HTTP.ResponseRepresentable = { request in
+            let closure: (HTTPVapor.Request) throws -> HTTPVapor.ResponseRepresentable = { request in
                 let model = try request.parameters.next(Model.self)
 
                 return try item(request, model).makeResponse()

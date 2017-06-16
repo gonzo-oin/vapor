@@ -1,9 +1,9 @@
-import HTTP
+import HTTPVapor
 import Multipart
 
 private let multipartKey = "vapor:multipart"
 
-extension HTTP.Message {
+extension HTTPVapor.Message {
     /// Multipart encoded request data sent using
     /// the `multipart/mixed...` header.
     public var multipart: [Part]? {

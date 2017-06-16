@@ -1,7 +1,7 @@
 import XCTest
 import Core
 @testable import Vapor
-import HTTP
+import HTTPVapor
 import Sessions
 
 class ViewTests: XCTestCase {

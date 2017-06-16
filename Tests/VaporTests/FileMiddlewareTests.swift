@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import HTTP
+import HTTPVapor
 import Vapor
 
 class FileMiddlewareTests: XCTestCase {
@@ -62,6 +62,6 @@ class FileMiddlewareTests: XCTestCase {
         let drop = try Droplet()
 
         let response = try drop.respond(to: Request(method: .get, path: file))
-        XCTAssertEqual(response.status, HTTP.Status.forbidden)
+        XCTAssertEqual(response.status, HTTPVapor.Status.forbidden)
     }
 }

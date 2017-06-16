@@ -1,6 +1,6 @@
 
 import Core
-import HTTP
+import HTTPVapor
 
 /// Represents a rendered view.
 public final class View {

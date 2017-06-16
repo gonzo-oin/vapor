@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 import Console
 import Cache
 import Sessions

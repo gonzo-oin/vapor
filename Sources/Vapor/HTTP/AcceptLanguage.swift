@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 public struct AcceptLanguage {
     public let languageRange: String

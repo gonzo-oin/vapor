@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 private let sessionKey = "sessions:session"
 

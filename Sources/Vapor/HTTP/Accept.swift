@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 public struct Accept {
     public let mediaType: String

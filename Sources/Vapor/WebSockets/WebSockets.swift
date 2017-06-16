@@ -1,5 +1,5 @@
 import WebSockets
-import HTTP
+import HTTPVapor
 import Sockets
 import TLS
 

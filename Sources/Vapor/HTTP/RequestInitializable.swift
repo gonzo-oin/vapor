@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 /// Objects that conform to RequestInitializable
 /// can be easily created from an incoming request.

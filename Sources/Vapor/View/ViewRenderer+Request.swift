@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 extension ViewRenderer {
     /// Creates a view at the given path

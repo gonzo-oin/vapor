@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 import Foundation
 import Node
 import Vapor
@@ -176,7 +176,7 @@ extension Response {
     /// a desired status code
     @discardableResult
     public func assertStatus(
-        is desired: HTTP.Status,
+        is desired: HTTPVapor.Status,
         _ message: String? = nil,
         file: StaticString = #file,
         line: UInt = #line

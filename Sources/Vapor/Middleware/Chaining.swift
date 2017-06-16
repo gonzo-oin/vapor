@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 extension Middleware {
     func chain(to responder: Responder) -> Responder {

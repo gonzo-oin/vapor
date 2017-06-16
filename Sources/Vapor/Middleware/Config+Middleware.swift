@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 extension Config {
     /// Adds a configurable M instance.

@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 extension Message {
     public static var mediaTypes: [String: String] {

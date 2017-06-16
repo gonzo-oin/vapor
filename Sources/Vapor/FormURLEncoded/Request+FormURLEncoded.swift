@@ -1,5 +1,5 @@
 import Node
-import HTTP
+import HTTPVapor
 
 extension Message {
     /// form url encoded encoded request data

@@ -1,5 +1,5 @@
 import XCTest
-import HTTP
+import HTTPVapor
 @testable import Vapor
 
 class RouteListTests: XCTestCase {

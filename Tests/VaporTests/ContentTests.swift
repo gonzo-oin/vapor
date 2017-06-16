@@ -1,6 +1,6 @@
 import XCTest
 import Node
-import HTTP
+import HTTPVapor
 @testable import Vapor
 
 class TestResponder: Responder {

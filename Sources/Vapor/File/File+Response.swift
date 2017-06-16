@@ -1,5 +1,5 @@
 import Foundation
-import HTTP
+import HTTPVapor
 
 public extension Response {
     /// If you are simply looking to serve files from your public directory,

@@ -1,5 +1,5 @@
 import Foundation
-import HTTP
+import HTTPVapor
 import Core
 import libc
 

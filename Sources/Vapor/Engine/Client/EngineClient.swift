@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 import Transport
 import Sockets
 import TLS
@@ -9,7 +9,7 @@ public final class EngineClient: ClientProtocol {
     public static let factory = EngineClientFactory()
     
     /// The connected HTTP client
-    public let client: HTTP.Client
+    public let client: HTTPVapor.Client
     
     /// Settings
     let hostname: String
@@ -60,8 +60,8 @@ private func makeClient(
     hostname: String,
     port: Port,
     securityLayer: SecurityLayer
-) throws -> HTTP.Client {
-    let client: HTTP.Client
+) throws -> HTTPVapor.Client {
+    let client: HTTPVapor.Client
     
     switch securityLayer {
     case .none:

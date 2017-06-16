@@ -1,5 +1,5 @@
 import Core
-import HTTP
+import HTTPVapor
 
 /// Internal error view used to create error HTML pages.
 internal final class ErrorView {

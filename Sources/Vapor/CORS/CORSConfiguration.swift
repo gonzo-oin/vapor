@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 /// Error thrown during instantiation of the `CORSConfiguration`.
 public enum CORSConfigurationError: Error {

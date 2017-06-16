@@ -1,5 +1,5 @@
 import Console
-import HTTP
+import HTTPVapor
 import Foundation
 
 /// A command that can be used to log all routes for 

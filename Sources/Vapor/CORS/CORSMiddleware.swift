@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 import Configs
 
 /// Middleware that adds support for CORS settings in request responses.

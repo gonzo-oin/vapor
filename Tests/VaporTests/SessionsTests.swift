@@ -1,7 +1,7 @@
 import XCTest
 @testable import Sessions
 import Vapor
-import HTTP
+import HTTPVapor
 import Core
 import Cookies
 

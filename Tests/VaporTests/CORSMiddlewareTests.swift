@@ -1,5 +1,5 @@
 import XCTest
-import HTTP
+import HTTPVapor
 import Vapor
 
 class CORSMiddlewareTests: XCTestCase {

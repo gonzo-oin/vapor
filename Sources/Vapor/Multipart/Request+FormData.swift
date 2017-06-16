@@ -1,10 +1,10 @@
-import HTTP
+import HTTPVapor
 import FormData
 import Multipart
 
 private let formDataKey = "vapor:formData"
 
-extension HTTP.Message {
+extension HTTPVapor.Message {
     /// Multipart encoded request data sent using
     /// the `multipart/form-data...` header.
     ///

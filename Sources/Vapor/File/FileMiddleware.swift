@@ -1,5 +1,5 @@
 import Foundation
-import HTTP
+import HTTPVapor
 import libc
 
 /// Servers files from the supplied public directory
@@ -22,7 +22,7 @@ public final class FileMiddleware: Middleware {
         } catch let error as AbortError where error.status == .notFound {
             // Check in file system
             var path = request.uri.path
-            guard !path.contains("../") else { throw HTTP.Status.forbidden }
+            guard !path.contains("../") else { throw HTTPVapor.Status.forbidden }
             if path.hasPrefix("/") {
                 path = String(path.characters.dropFirst())
             }

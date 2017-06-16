@@ -1,6 +1,6 @@
 import XCTest
 @testable import Vapor
-import HTTP
+import HTTPVapor
 
 class ResourceTests: XCTestCase {
     static let allTests = [

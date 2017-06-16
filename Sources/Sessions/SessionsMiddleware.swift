@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 import Cookies
 
 /// Looks for the `vapor-session` cookie on incoming

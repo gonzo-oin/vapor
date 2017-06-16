@@ -1,5 +1,5 @@
 import Vapor
-import HTTP
+import HTTPVapor
 import Testing
 import XCTest
 

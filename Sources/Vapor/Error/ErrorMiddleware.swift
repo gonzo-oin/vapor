@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 fileprivate let errorView = ErrorView()
 

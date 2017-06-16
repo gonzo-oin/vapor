@@ -1,4 +1,4 @@
-import HTTP
+import HTTPVapor
 
 extension Body {
     public init(_ json: JSON) throws {

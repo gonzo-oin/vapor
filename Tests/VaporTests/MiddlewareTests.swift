@@ -1,6 +1,6 @@
 import Vapor
 import XCTest
-import HTTP
+import HTTPVapor
 
 extension String: Swift.Error {}
 

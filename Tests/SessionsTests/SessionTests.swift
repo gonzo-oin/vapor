@@ -1,6 +1,6 @@
 import XCTest
 @testable import Sessions
-import HTTP
+import HTTPVapor
 import Node
 
 class SessionTests: XCTestCase {

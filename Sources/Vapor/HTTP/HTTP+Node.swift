@@ -1,6 +1,6 @@
 import Node
 import URI
-import HTTP
+import HTTPVapor
 import Sessions
 
 extension Request: NodeRepresentable {

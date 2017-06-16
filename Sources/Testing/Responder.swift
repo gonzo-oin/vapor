@@ -1,9 +1,9 @@
-import HTTP
+import HTTPVapor
 
 extension Responder {
     @discardableResult
     public func testResponse(
-        to method: HTTP.Method,
+        to method: HTTPVapor.Method,
         at path: String,
         hostname: String = "0.0.0.0",
         headers: [HeaderKey: String] = [:],
